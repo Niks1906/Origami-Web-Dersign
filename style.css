@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #264e70;
+}
+
+h3 {
+  color: #eedad1;
+}
+
+h5 {
+  color: #ffcc29;
+}
+p {
+  color: white;
+}
+
+.heading {
+  background-color: #81f5ff;
+}
+
+.instruction {
+  background-color: #fffbbe;
+}
+
+.Tutorials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.camel {
+  background-color: #bb2205;
+}
+
+.chameleon {
+  background-color: #db6400;
+}
+
+.cicada {
+  background-color: #342ead;
+}
+
+.panda {
+  background-color: #21209c;
+}
+
+.pigeon {
+  background-color: #af0069;
+}
+
+.teddy {
+  background-color: #16697a;
+}
+
+.support {
+  background-color: #000839;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
