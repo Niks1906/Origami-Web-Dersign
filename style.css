@@ -13,16 +13,25 @@ h3 {
 h5 {
   color: #ffcc29;
 }
+
 p {
   color: white;
 }
 
 .heading {
   background-color: #81f5ff;
+  border: solid;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 25px;
 }
 
 .instruction {
   background-color: #fffbbe;
+  border: solid;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 25px;
 }
 
 .Tutorials {
@@ -34,26 +43,81 @@ p {
 
 .camel {
   background-color: #bb2205;
+  border: solid;
+  border-radius: 50px;
+  border-width: 15px;
+  margin: 50px;
+  padding: 50px;
 }
+
+.camel:hover {
+  transform: scale(1.125);
+}
+
 
 .chameleon {
   background-color: #db6400;
+  border: solid;
+  border-radius: 50px;
+  border-width: 15px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.chameleon:hover {
+  transform: scale(1.125);
 }
 
 .cicada {
   background-color: #342ead;
+  border: solid;
+  border-radius: 50px;
+  border-width: 15px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.cicada:hover {
+  transform: scale(1.125);
 }
 
 .panda {
   background-color: #21209c;
+  border: solid;
+  border-radius: 50px;
+  border-width: 15px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.panda:hover {
+  transform: scale(1.125);
 }
 
 .pigeon {
   background-color: #af0069;
+  border: solid;
+  border-radius: 50px;
+  border-width: 15px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.pigeon:hover {
+  transform: scale(1.125);
 }
 
 .teddy {
   background-color: #16697a;
+  border: solid;
+  border-radius: 50px;
+  border-width: 15px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.teddy:hover {
+  transform: scale(1.125);
 }
 
 .support {
@@ -62,4 +126,12 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  border: solid;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 25px;
+}
+
+.support h3:hover {
+  transform: scale(2);
 }
